@@ -1,0 +1,26 @@
+{
+  "name": "jquery-class2",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "jsdom": "^23.0.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "mocha": "^10.2.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "scripts": {
+    "build-dev": "webpack --config webpack.development.config.js",
+    "build-prod": "webpack --config webpack.production.config.js",
+    "start-dev": "webpack serve --config webpack.development.config.js --open",
+    "start-prod": "webpack serve --config webpack.production.config.js --open",
+    "test": "mocha"
+  },
+  "type": "module"
+}

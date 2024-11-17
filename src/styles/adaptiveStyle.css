@@ -1,0 +1,149 @@
+@media (max-width: 480px) {
+    div {
+        width: 250px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 530px) {
+
+    div {
+        width: 260px;
+    }
+
+    .span-button {
+        height: 320px;
+    }
+
+    .button {
+        height: 42px;
+    }
+}
+
+@media (min-width: 531px) and (max-width: 580px) {
+
+    div {
+        width: 270px;
+    }
+
+    .span-button {
+        height: 325px;
+    }
+
+    .button {
+        height: 44px;
+    }
+
+    .outputWindow {
+        height: 60px;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 630px) {
+
+    div {
+        width: 280px;
+    }
+
+    .span-button {
+        height: 338px;
+    }
+
+    .button {
+        height: 46px;
+    }
+
+    .outputWindow {
+        height: 65px;
+    }
+}
+
+@media (min-width: 631px) and (max-width: 680px) {
+
+    div {
+        width: 290px;
+    }
+
+    .span-button {
+        height: 370px;
+    }
+}
+
+@media (min-width: 631px) and (max-width: 680px) {
+
+    div {
+        width: 300px;
+    }
+
+    .span-button {
+        height: 390px;
+    }
+
+    .button {
+        height: 50px;
+        font-size: 28px;
+    }
+
+    .outputWindow {
+        height: 70px;
+    }
+}
+
+@media (min-width: 681px) and (max-width: 730px) {
+
+    div {
+        width: 310px;
+    }
+
+    .span-button {
+        height: 400px;
+    }
+
+    .button {
+        height: 50px;
+        font-size: 28px;
+    }
+
+    .outputWindow {
+        height: 75px;
+    }
+}
+
+@media (min-width: 731px) and (max-width: 780px) {
+
+    div {
+        width: 315px;
+    }
+
+    .span-button {
+        height: 420px;
+    }
+
+    .button {
+        height: 53px;
+        font-size: 30px;
+    }
+
+    .outputWindow {
+        height: 80px;
+    }
+}
+
+@media (min-width: 781px) {
+
+    div {
+        width: 320px;
+    }
+
+    .span-button {
+        height: 430px;
+    }
+
+    .button {
+        height: 56px;
+        font-size: 30px;
+    }
+
+    .outputWindow {
+        height: 90px;
+    }
+}

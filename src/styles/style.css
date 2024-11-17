@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    display: inline-block;
+    user-select: none;    /* запрет выделение текста при зажатии мыши*/
+}
+
+div {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: stretch;
+    align-self: stretch;
+    width: 250px;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 7px;
+    transition: all 0.3s linear;
+}
+.span-button {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+    height: 70%;
+    justify-content: space-between;
+}
+
+.outputWindow {
+    display: inline-block;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    margin: 0;
+    padding: 2px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 50px;
+    background-color: beige;
+    transition: all 1ms linear;
+    user-select: text;
+}
+
+.button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 23%;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px slategray;
+    color: aliceblue;
+}
+
+.button-letterM {
+    margin-top: 10px;
+    background-color: slategray;
+}
+.button-signs {
+    background-color: saddlebrown;
+}
+
+.button-number {
+    background-color: black;
+}
+
+.button-zero {
+    width: 74%;
+}
+
+.button-result {
+    width: 23%;
+    background-color: darkorange;
+}
+
+
